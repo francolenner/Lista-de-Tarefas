@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(0,31,255,1) 0%, rgba(116,21,249,1) 50%, rgba(255,0,236,1) 100%);
+}
+
+#botao-adicionar {
+    background: black;
+    color: whitesmoke;
+    width: 130px;
+    height: 40px;
+    border: 2px purple;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+    float: right;
+    font-weight: 700;
+}
+
+#botao-adicionar:hover {
+    opacity: 0.8;
+}
+
+#botao-adicionar:active {
+    opacity: 0.6;
+}
+
+.container {
+    background: white;
+    width: 541px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+}
+#input-principal {
+    width: 342px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding-left: 10px ;
+}
+
+#tarefas{
+    width: 100%;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.item-tarefa {
+    background: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 20px 45px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+}
+
+.nome-tarefa {
+    color: black;
+    font-size: 15px;
+}
+
+.button-delete {
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fa-trash{
+    color: red;
+}
+
+.button-check {
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fa-check {
+    color: black;
+}
+
+.item-tarefa:hover .button-delete {
+    opacity: 1;
+}
+
+.item-tarefa:hover .button-check {
+    opacity: 1;
+}
+
+.concluido {
+    background-color:lawngreen;
+}
