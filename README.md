@@ -1,5 +1,5 @@
 # Lista de Tarefas
-Essa é uma lista de tarefas ( Funcional ), caso queira usar, o link está abaixo.
+Essa é uma lista de tarefas ( Funcional ), abaixo segue as instruções de uso e caso queira usar, o link está abaixo das Skills
 
 <img src="./assets/1.jpeg" alt="Resultado do projeto em imagens 1">
 <img src="./assets/2.jpeg" alt="Resultado do projeto em imagens 2">
